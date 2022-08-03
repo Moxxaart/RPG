@@ -1,12 +1,9 @@
-package com.rpg.rpg;
+package com.rpg;
 
+import com.rpg.Core.GamePanel;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javax.swing.JFrame;
-
-import java.io.IOException;
 
 public class Main extends Application {
 

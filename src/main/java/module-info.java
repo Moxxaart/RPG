@@ -11,6 +11,6 @@ module com.rpg.rpg {
     requires com.almasb.fxgl.all;
     requires java.desktop;
 
-    opens com.rpg.rpg to javafx.fxml;
-    exports com.rpg.rpg;
+    opens com.rpg to javafx.fxml;
+    exports com.rpg;
 }
