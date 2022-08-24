@@ -31,6 +31,8 @@ public class GamePanel extends JPanel implements Runnable {
     Thread gameThread;
     public Collision cCheck = new Collision(this);
     public Player player = new Player(this, keyH);
+    public AssetSetter assetSetter = new AssetSetter(this);
+    public SuperObject obj[] = new SuperObject[10];
 
     //set player default position
     int playerX = 100;
