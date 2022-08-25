@@ -4,8 +4,8 @@ import com.rpg.Core.GamePanel;
 import com.rpg.Core.KeyHandler;
 import com.rpg.Entity.Entity;
 
-import javax.imageio.ImageIO;
 import java.awt.*;
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
