@@ -1,4 +1,6 @@
-package com.rpg.Core;
+package com.rpg.Object;
+
+import com.rpg.Core.SuperObject;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;

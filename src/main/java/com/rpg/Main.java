@@ -22,6 +22,7 @@ public class Main extends Application {
         windows.setLocationRelativeTo(null);
         windows.setVisible(true);
 
+        gamePanel.setupGame();
         gamePanel.startGameThread();
     }
 

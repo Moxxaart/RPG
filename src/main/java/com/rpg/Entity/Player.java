@@ -27,6 +27,8 @@ public class Player extends Entity {
         solidArea = new Rectangle();
         solidArea.x = 8;
         solidArea.y = 16;
+        solidAreaDefaultX = solidArea.x;
+        solidAreaDefaultY = solidArea.y;
         solidArea.width = 32;
         solidArea.height = 32;
 
@@ -71,9 +73,13 @@ public class Player extends Entity {
                 direction = "right";
             }
 
-            //COLLISION
+            //TILE COLLISION
             onCollision = false;
             gp.cCheck.checkTile(this);
+
+            //OBJECT COLLISION
+            int objIndex = gp.cCheck.checkObject(this,true);
+
             if(onCollision == false) {
                 switch (direction){
                     case "up": worldY -= speed; break;
